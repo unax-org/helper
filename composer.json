@@ -1,0 +1,22 @@
+{
+    "name": "unax/helper",
+    "version": "1.0.0",
+    "description": "Helper Library for WordPress",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Unax Ltd.",
+            "email": "support@unax.org",
+            "homepage": "https://www.unax.org"
+        }
+    ],
+    "require": {
+        "unax/logger": "^1.1",
+        "php": ">=8.0"
+    },
+    "support": {
+        "email": "support@unax.org",
+        "homepage": "https://www.unax.org"
+    },
+    "license": "APACHE-2.0"
+}
