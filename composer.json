@@ -1,6 +1,6 @@
 {
     "name": "unax/helper",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Helper Library for WordPress",
     "type": "library",
     "authors": [
@@ -10,9 +10,9 @@
             "homepage": "https://www.unax.org"
         }
     ],
-     "autoload": {
+    "autoload": {
         "psr-4": {
-            "Unax\\Helper\\": "/"
+            "Unax\\Helper\\": "src/"
         }
     },
     "require": {
