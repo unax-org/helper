@@ -10,6 +10,11 @@
             "homepage": "https://www.unax.org"
         }
     ],
+     "autoload": {
+        "psr-4": {
+            "Unax\\Helper\\": "/"
+        }
+    },
     "require": {
         "unax/logger": "^1.1",
         "php": ">=8.0"
