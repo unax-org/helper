@@ -126,7 +126,7 @@ class Helper {
 			Logger::setLogThreshold( self::get_log_threshold() );
 
 			// Set WP emails content type.
-			add_filter( 'wp_mail_content_type', self::get_wp_mail_content_type() );
+			add_filter( 'wp_mail_content_type', array( self::class, 'get_wp_mail_content_type' ) );
 		} catch ( \Exception $e ) {
 			error_log( $e->getMessage(), 0 );
 		}
