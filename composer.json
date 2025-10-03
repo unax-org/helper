@@ -19,6 +19,16 @@
         "unax/logger": "^1.1",
         "php": ">=8.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5",
+        "brain/monkey": "^2.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unax\\Helper\\Tests\\": "tests/"
+        }
+    },
     "support": {
         "email": "support@unax.org",
         "homepage": "https://www.unax.org"
